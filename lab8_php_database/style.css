@@ -1,0 +1,137 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* BODY */
+body {
+    background: #f2f4f8;
+    padding: 30px;
+    color: #333;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* TITLE */
+h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    color: #3a3a3a;
+}
+
+/* FORM WRAPPER */
+.main {
+    margin-top: 15px;
+}
+
+/* INPUT GROUP */
+.input {
+    margin-bottom: 15px;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.input input,
+.input select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.input input:focus,
+.input select:focus {
+    border-color: #4b7bec;
+    box-shadow: 0 0 4px rgba(75, 123, 236, 0.5);
+}
+
+/* SUBMIT BUTTON */
+.submit input[type="submit"] {
+    background: #4b7bec;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.submit input[type="submit"]:hover {
+    background: #3867d6;
+}
+
+/* TABLE STYLE (untuk index.php) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th {
+    background: #4b7bec;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* ACTION BUTTONS */
+.btn {
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.btn-edit {
+    background: #20bf6b;
+}
+
+.btn-edit:hover {
+    background: #0fb153;
+}
+
+.btn-delete {
+    background: #eb3b5a;
+}
+
+.btn-delete:hover {
+    background: #d21f3d;
+}
+
+.btn-add {
+    background: #3867d6;
+    padding: 10px 16px;
+}
+
+.btn-add:hover {
+    background: #274b9f;
+}
